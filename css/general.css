@@ -15,6 +15,7 @@ default:1
 medium 1.2
 small:1.05
 paragraph default:1.06
+large:1.8
 
 -leter spacing
 -0.5px
@@ -61,12 +62,16 @@ html {
   /* 10px/16px=0.625=62.5% */
   /* percentage of users browser font size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* only works if there is nothing absolutely  positioned in relation to body */
+  overflow-x: hidden;
 }
 /* ******************** */
 /* GENERAL REUSABLE COMPONENT */
@@ -107,9 +112,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5-cols {
+/* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid-center-v {
   align-items: center;
