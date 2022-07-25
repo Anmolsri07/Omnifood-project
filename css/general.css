@@ -255,7 +255,7 @@ body {
   outline: none;
   /* outline: 4px dotted #cf711f; */
   /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.53);
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /* *********************** */
@@ -263,7 +263,7 @@ body {
 /* *********************** */
 
 .margin-right-sm {
-  margin: 1.6rem !important;
+  margin-right: 1.6rem !important;
 }
 
 .margin-bottom-md {
